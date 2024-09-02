@@ -65,7 +65,19 @@ with col2:
     )
 
 
-# -------------- SOCIAL MEDIA
+
+with st.expander("About Me"):
+    st.write('''
+        Hi there! I'm Francis Michael Secuya, a passionate Data Analyst based in Minglanilla, Cebu. My journey into the world of data began during my college years at Cebu Institute of Technology, where I immersed myself in various projects and roles that shaped my career.
+
+        Over the years, I’ve developed a keen interest in transforming raw data into actionable insights. My expertise spans across programming languages such as Python, Java, and SQL, along with data analytics tools like MS Excel and Jupyter Notebook.
+
+        Outside of my technical skills, I have a strong background in graphic design and video editing, which complements my analytical abilities. I’ve also ventured into web development, working with technologies like HTML, CSS, and React.js.
+
+        My journey is not just about professional achievements but also about personal growth and contributions to the community. From being a chairperson for student organizations to serving as an esports shoutcaster and a leadership resource speaker, I’ve embraced every opportunity to learn and grow.
+
+        I'm always excited to connect with like-minded individuals and explore new opportunities. Feel free to reach out to me through my social media profiles or email. Looking forward to connecting with you!
+    ''')
 
 # -------------- SOCIAL MEDIA
 st.markdown('<hr>', unsafe_allow_html=True)  # Adds a horizontal line between sections
