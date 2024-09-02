@@ -13,7 +13,7 @@ youtube = current_dir / "assets" / "youtube.png"
 linkedin = current_dir / "assets" / "linkedin.png"
 
 PAGE_TITLE = "Digital CV | Francis Michael M. Secuya"
-PAGE_ICON = ":wave:"
+PAGE_ICON = "📃"
 NAME = "Francis Michael Secuya"
 DESCRIPTION = """Data Analyst | Transforming Raw Data into Insights"""
 EMAIL = "francismichael.secuya@cit.edu"
