@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300;400;500;600;700&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
+
+*{
+    font-family: "Readex Pro";
+}
+
+h1, h2, h3 {
+    line-height: 1.2; /* Improve spacing for headings */
+}
+
+p {
+    line-height: 1.6; /* Improve readability for paragraphs */
+}
+
+.rounded-image {
+    border-radius: 50%;
+    border: 2px solid #000;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow */
+}
+
+.container {
+    padding: 10px;
+     border-radius: 15%;
+    border: 3px solid #ffffff;
+}
+
+
+section {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.subheader {
+    color: #283618;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #283618;
+    padding-bottom: 5px;
+}
+
+img {
+    border-radius: 15%;
+    border: 3px solid #D1E8E2;
+}
+
+.custom-title {
+    font-size: 40px !important;  /* Adjust the size as needed */
+    font-weight: bold;
+}
+
+.css-1d391kg {
+    max-width: 864px; /* Adjust this value as needed */
+    overflow-wrap: break-word;
+}
+
+.no-wrap {
+    white-space: nowrap;
+}
+
+
+a {
+    text-decoration: none;
+    color: white !important;
+    font-weight: 500;
+    padding: 5px; /* Add some padding */
+}
+
+a:hover {
+    color: #65CCB8 !important;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type:none
+}
+
+hr {
+    border: 0;
+    border-top: 3px solid #D1E8E2;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.timeline {
+    position: relative;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px 0;
+    list-style-type: none;
+}
+
+.timeline::after {
+    content: "";
+    position: absolute;
+    width: 6px;
+    background-color: #2c3531; /* Match the subheader color */
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+}
+
+/* Add these styles to your main.css */
+.icon-text {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.icon-text i {
+    margin-right: 10px; /* Space between icon and text */
+    font-size: 20px; /* Adjust size of icons */
+}
+
+
+
+.timeline-item {
+    padding: 5px 25px; /* Adjusted padding */
+    position: relative;
+    border-radius: 10px; /* Slightly larger border-radius for consistency */
+    background: #D1E8E2; /* Matches the background of other elements */
+    margin-bottom: 20px;
+    margin-left: 50%;
+    width: 50%;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    box-sizing: border-box;
+}
+
+.timeline-item:nth-child(odd) {
+    left: 0;
+    margin-left: 0;
+}
+
+.timeline-item-content::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 0;
+    height: 0;
+    border: 8px solid transparent;
+    border-right-color: #65CCB8; /* Matches the timeline item background */
+    border-left: 0;
+    margin-top: -8px;
+    left: -16px;
+}
+
+.timeline-item-content {
+    padding: 5px;
+    border-radius: 10px; /* Matches the timeline item border-radius */
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.timeline-item-content h3, 
+.timeline-item-content p, 
+.timeline-item-content ul {
+    color: #000; /* Text color matches the rest of the design */
+    font-family: 'Readex Pro', sans-serif; /* Apply Readex Pro font */
+}
+
+.timeline-item-content ul {
+    padding-left: 20px;
+}
+
+.timeline-item-content li {
+    color: #000; /* Text color matches the rest of the design */
+    font-family: 'Readex Pro', sans-serif; /* Apply Readex Pro font */
+}
+
+.timeline-item:hover {
+    background-color: #ffffff; /* Light hover effect, slightly different from default background */
+}
+
+
+.stButton button {
+    background-color: #65CCB8;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.stButton button:hover {
+    background-color: #65CCB8;
+}
+#MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
+header {visibility: hidden;}
