@@ -40,8 +40,8 @@ section {
 }
 
 img {
-    border-radius: 15%;
-    border: 3px solid #D1E8E2;
+    border: none;  /* Remove border */
+    display: inline; /* Align images inline with text */
 }
 
 .custom-title {
@@ -181,9 +181,66 @@ hr {
     cursor: pointer;
 }
 
+.custom-button {
+    color: #141619 !important; /* Custom color for the button link */
+    text-decoration: none; /* Remove underline if any */
+    display: block; /* Make sure it takes full width */
+    width: 100%; /* Ensure it spans full width */
+    padding: 5px; /* Add padding */
+    text-align: center; /* Center text */
+    background-color: white; /* Background color for the button */
+    border-radius: 50px; /* Fully rounded button */
+    border: 3px solid transparent; /* Set initial border (transparent) */
+    transition: background-color 0.3s, border-color 0.3s; /* Add transition for smoothness */
+}
+
+.custom-button:hover {
+    color: #65CCB8 !important; /* Change text color on hover */
+    background-color: #0e5052; /* Darken the background on hover */
+    border-color: #65CCB8; /* Set the border color on hover */
+}
+
+.custom-button-alt {
+    color: #141619 !important; /* Custom color for the button link */
+    text-decoration: none; /* Remove underline if any */
+    display: flex; /* Use flexbox for alignment */
+    justify-content: center; /* Center text */
+    padding: 10px 15px; /* Adjust padding */
+    background-color: #65CCB8; /* Default background color */
+    border-radius: 5px; /* Slightly rounded corners */
+    width: 100%; /* Ensure it spans full width */
+    margin: 5px 0; /* Add some vertical spacing between buttons */
+    transition: opacity 0.3s ease; /* Smooth transition for opacity */
+}
+
+.custom-button-alt:hover {
+    color: #fff !important; /* Custom color for the button link */
+    opacity: 0.8; /* Decrease opacity on hover */
+}
+
 .stButton button:hover {
     background-color: #65CCB8;
 }
+
+.custom-button2 {
+    color: white !important; /* Custom color for the button link */
+    text-decoration: none; /* Remove underline if any */
+    display: block; /* Make sure it takes full width */
+    width: 100%; /* Ensure it spans full width */
+    padding: 5px; /* Add padding */
+    text-align: center; /* Center text */
+    background-color: #141619 ; /* Background color for the button */
+    border-radius: 50px; /* Fully rounded button */
+    border: 3px solid transparent; /* Set initial border (transparent) */
+    transition: background-color 0.3s, border-color 0.3s; /* Add transition for smoothness */
+}
+
+.custom-button2:hover {
+    color: #65CCB8 !important; /* Change text color on hover */
+    background-color: #141619; /* Darken the background on hover */
+    border-color: #65CCB8; /* Set the border color on hover */
+}
+
 #MainMenu {visibility: hidden;}
 footer {visibility: hidden;}
 header {visibility: hidden;}
