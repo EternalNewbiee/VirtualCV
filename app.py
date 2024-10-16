@@ -297,27 +297,6 @@ timeline_html = """
     </div>
     <div class="timeline-item">
         <div class="timeline-item-content">
-            <h3>2023 Kaggle</h3>
-            <p>Python Intro to Programming</p>
-            <a href="https://www.kaggle.com/learn/certification/francismichaelsecuya/intro-to-programming" target="_blank" class="custom-button2">View Certificate</a>
-        </div>
-    </div>
-    <div class="timeline-item">
-        <div class="timeline-item-content">
-            <h3>2023 Kaggle</h3>
-            <p>Python Pandas</p>
-            <a href="https://www.kaggle.com/learn/certification/francismichaelsecuya/pandas" target="_blank" class="custom-button2">View Certificate</a>
-        </div>
-    </div>
-       <div class="timeline-item">
-        <div class="timeline-item-content">
-            <h3>2023 Kaggle</h3>
-            <p>Python Data Visualization</p>
-            <a href="https://www.kaggle.com/learn/certification/francismichaelsecuya/data-visualization" target="_blank" class="custom-button2">View Certificate</a>
-        </div>
-    </div>
-    <div class="timeline-item">
-        <div class="timeline-item-content">
             <h3>2022 Codechum</h3>
             <p>Java Programming</p>
             <a href="https://drive.google.com/file/d/1Bx_39qjf3PebCDUCijWUQfxMfzE5KWo_/view?usp=sharing" target="_blank" class="custom-button2">View Certificate</a>
